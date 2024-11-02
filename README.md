@@ -1,1 +1,2 @@
-git@github.com:nikozszs/slozhno-sosredotochitsya.git
+git@github.com:nikozszs/third_project.git
+

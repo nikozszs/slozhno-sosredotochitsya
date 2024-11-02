@@ -1,4 +1,20 @@
+
 /*
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+:root {
+  --main-font: 'IBM Plex Mono', monospace;
+  --bg-color: #000028;
+  --accent-color: #DB00FF;
+  --button: #FF0070;
+  --title-shadow-color: #FF0070;
+  --text-link-color: #F1B2CE;
+  --text-link-shadow-color:#353430;
+  --button-hover-color: rgba(255, 0, 112, 0.4);
+  --color: #F1B2CE;
+  --bg-image: url(./images/cover-image-dark.png);
+  --secondary-color: #FF0070;
+  --color-text: #000028;
+}
+

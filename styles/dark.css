@@ -5,7 +5,6 @@
 */
 
 .page.theme_dark {
-  --main-font: 'IBM Plex Mono', monospace;
   --bg-color: #000028;
   --accent-color: #DB00FF;
   --button: #FF0070;
@@ -17,3 +16,4 @@
   --bg-image: url(../images/cover-image-dark.png);
   --secondary-color: #FF0070;
 }
+

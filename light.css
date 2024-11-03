@@ -32,7 +32,7 @@
     --color-text: #353430;
     }
 
-    .header__decorated-zone {
+    .decorated-zone {
       visibility: hidden;
     }
   }

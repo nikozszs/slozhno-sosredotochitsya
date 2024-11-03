@@ -14,5 +14,6 @@
   --bg-image: url(./images/cover-image-dark.png);
   --secondary-color: #FF0070;
   --color-text: #000028;
+  --logo-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
 }
 

@@ -4,7 +4,6 @@
   переключая тему
 */
 :root.theme_light {
-  --main-font: 'IBM Plex Mono', monospace;
   --bg-color: #fff1f7;
   --accent-color: #FFC2E6;
   --button: #353430;
@@ -20,7 +19,6 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --main-font: 'IBM Plex Mono', monospace;
     --bg-color: #fff1f7;
     --accent-color: #FFC2E6;
     --button: #353430;

@@ -9,19 +9,20 @@
   background-size: cover;
   background-attachment: fixed;
   color: var(--color);
-  font-family: var(--main-font);
   margin: 20px;
   block-size: 100%;
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 .header {
   display: grid;
-  grid-template-rows: minmax(238px, 300px) min-content minmax(238px, 300px);
-  font-family: var(--main-font);
+  grid-template-rows: 1fr min-content 1fr;
   font-weight: normal;
   position: relative;
   margin-block-end: 80px;
   background-image: var(--page-bg-image);
+  height: 100vh;
+  min-height: 668px;
 }
 
 .header__subtitle {

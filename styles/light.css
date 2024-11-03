@@ -32,7 +32,7 @@
     --color-text: #353430;
     }
 
-    .decorated-zone-rec {
-      visibility: hidden;
+    .theme_light .decorated-zone-rec {
+      display: none;
     }
   }

@@ -282,7 +282,7 @@
 }
 
 @media (width < 1023px) {
-  .theme_light .decorated-zone-rec {
+  .theme_light .theme_auto .decorated-zone-rec {
     display: none;
   }
 
@@ -377,7 +377,7 @@
     --logo-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
 
-  .theme_light .decorated-zone-rec {
+  .theme_light .theme_auto .decorated-zone-rec {
     display: none;
   }
   

@@ -120,6 +120,7 @@
 .link {
   cursor: pointer;
   text-shadow: 2px 2px 0 var(--secondary-color);
+  text-decoration: none;
 }
 
 .content__section {
@@ -235,7 +236,7 @@
 }
 
 .header__theme-menu-button:hover {
-  outline: 0 0 1px 0 solid var(--button-hover-color);
+  border: 1px solid var(--button-hover-color);
 }
 
 .link:focus-visible {

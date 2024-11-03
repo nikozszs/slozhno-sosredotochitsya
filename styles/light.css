@@ -35,4 +35,8 @@
     .theme_light .theme_auto .decorated-zone-rec {
       display: none;
     }
+
+    .theme_auto .decorated-zone-rec {
+      display: none;
+    }
   }

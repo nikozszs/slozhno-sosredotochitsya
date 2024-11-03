@@ -282,6 +282,10 @@
 }
 
 @media (width < 1023px) {
+  .theme_light .decorated-zone-rec {
+    display: none;
+  }
+
   .header {
     margin-block-end: 159px;
     max-height: 1024px;
@@ -371,6 +375,10 @@
 @media (width <= 767px) {
   :root {
     --logo-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  }
+
+  .theme_light .decorated-zone-rec {
+    display: none;
   }
   
   .page {
@@ -467,12 +475,12 @@
   }
 
   .footer__decorated-zone::before {
-    top: 53px;
+    top: 0px;
     right: 5px;
   }
   
   .footer__decorated-zone::after {
-    bottom: 58.7px;
+    bottom: 20px;
     left: 0px;
   }
 }

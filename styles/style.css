@@ -426,30 +426,33 @@
   }
 
   .main_title {
-    margin-bottom: 6%;
+    padding-bottom: 3.5%;
     width: 355px;
   }
 
   .main_text {
-    margin-top: 10px;
-    margin-bottom: 24px;
+    padding-top: 10px;
+    padding-bottom: 20px;
     margin-right: 1.5%;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .title_decor {
     margin-right: 1%;
-    margin-bottom: 2%;
+    margin-bottom: 0%;
   }
 
   .content__section {
     display: inline;
-    margin-block-end: 40px;
+    margin-bottom: 40px;
   }
 
   .content__section_row {
     margin-right: 1%;
-    margin-bottom: 30px;
+    margin-bottom: 28px;
     margin-left: 0%;
+    margin-top: 9px;
   }
 
   .block_1 {
@@ -460,8 +463,12 @@
   }
 
   .description_title {
-    margin-block-start: 4.8%;
+    margin-block-start: 26px;
     margin-right: 1%;
+  }
+  
+  .description_title:first-child {
+    margin-block-start: 0px;
   }
 
   .gallery {
@@ -477,7 +484,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    margin-top: 30px;
+    margin-top: 45px;
   }
 }
 

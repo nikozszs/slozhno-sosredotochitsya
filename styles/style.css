@@ -432,7 +432,8 @@
 
   .main_text {
     margin-top: 10px;
-    margin-bottom: 21px;
+    margin-bottom: 24px;
+    margin-right: 1.5%;
   }
 
   .title_decor {
@@ -442,12 +443,12 @@
 
   .content__section {
     display: inline;
-    margin-block-end: 48px;
+    margin-block-end: 50px;
   }
 
   .content__section_row {
     margin-right: 1%;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
     margin-left: 0%;
   }
 
@@ -468,7 +469,6 @@
     max-height: 1400px;
     margin-right: 0%;
     margin-left: 0%;
-    margin-bottom: 40px;
   }
 
   .footer {
@@ -477,16 +477,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-  }
-
-  .footer__decorated-zone::before {
-    top: 52px;
-    right: 5px;
-  }
-  
-  .footer__decorated-zone::after {
-    bottom: 0px;
-    left: 0px;
+    margin-top: 30px;
   }
 }
 

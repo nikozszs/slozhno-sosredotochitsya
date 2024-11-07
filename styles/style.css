@@ -293,20 +293,19 @@
 
   .header__subtitle {
     margin-right: 2.5%;
-    margin-top: 12%;
+    margin-top: 0%;
     width: 47.5%;
   }
 
   .header__title {
     line-height: 99px;
-    margin-top: 13%;
+    margin-top: 0%;
   }
   
   .header__theme-menu {
     justify-content: end;
     align-items: center;
     padding-right: 3%;
-    margin-top: 15%;
   }
   
   .header__theme-menu-list {

@@ -273,11 +273,11 @@
   border: 1px solid var(--button-hover-color);
 }
 
-.header__theme-menu-button:focus {
+.header__theme-menu-button:focus-visible {
   outline: 1px solid var(--button);
 }
 
-.theme_light .header__decorated-zone {
+.theme_light .decorated-zone-rec {
   display: none;
 }
 

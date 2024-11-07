@@ -395,7 +395,7 @@
 
   .header__subtitle {
     margin-left: 0%;
-    margin-bottom: 18%;
+    margin-bottom: 3%;
     width: 99%;
   }
 
@@ -407,7 +407,7 @@
     justify-content: end;
     align-items: center;
     padding-right: 2.5%;
-    margin-top: 11%;
+    margin-top: 2%;
   }
   
   .header__theme-menu-list {

@@ -189,7 +189,7 @@
 
 .description_title {
   background-color: var(--secondary-color);
-  color: var(--bg-color);
+  color: var(--color-text);
   margin-block-start: 3.2%;
   font-weight: 400;
 }
@@ -443,7 +443,7 @@
 
   .content__section {
     display: inline;
-    margin-block-end: 50px;
+    margin-block-end: 40px;
   }
 
   .content__section_row {

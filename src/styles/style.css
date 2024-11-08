@@ -1,5 +1,3 @@
-/* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-
 .page {
   min-inline-size: 360px;
   background-color: var(--bg-color);
@@ -22,7 +20,17 @@
   margin-block-end: 60px;
   height: 100vh;
   min-height: 668px;
-  max-height: 768px;
+}
+/*max-height: 768px;*/
+
+.header__title {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: var(--logo-size);
+  line-height: 82.5%;
+  color: var(--accent-color);
+  text-shadow: 4px 4px 0 var(--secondary-color);
+  margin: 0;
 }
 
 .header__subtitle {
@@ -34,10 +42,10 @@
   line-height: 23.4px;
   text-align: left;
   align-self: center;
-  margin-left: auto;
   width: 48%;
+  margin: 0;
+  justify-self: end;
   margin-right: 2%;
-  margin-bottom: 2%;
 }
 
 .decorated-zone-rec {
@@ -59,7 +67,7 @@
   background-color: #FF0070;
   width: 9px;
   height: 9px;
-  top: 10px;
+  top: 8px;
   right: -18px;
   box-shadow: 0px 0px 4px 2px #FF0070;
 }
@@ -91,6 +99,7 @@
   justify-content: center;
   align-items: flex-start;
   margin-top: 1.8%;
+  max-height: 26px;
 }
 
 .header__theme-menu-list {
@@ -115,15 +124,6 @@
 .header__theme-menu-button_active {
   border: 1px solid currentColor;
   pointer-events: none;
-}
-
-.header__title {
-  font-family: inherit;
-  font-weight: 700;
-  font-size: var(--logo-size);
-  line-height: 82.5%;
-  color: var(--accent-color);
-  text-shadow: 4px 4px 0 var(--secondary-color);
 }
 
 .title_decor {

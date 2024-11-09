@@ -19,7 +19,7 @@
   position: relative;
   margin-block-end: 60px;
   height: 100vh;
-  max-height: 768px;
+  padding: 20px;
 }
 
 .header__title {
@@ -30,6 +30,7 @@
   color: var(--accent-color);
   text-shadow: 4px 4px 0 var(--secondary-color);
   margin: 0;
+  margin-left: -20px;
   justify-self: start;
 }
 
@@ -42,10 +43,9 @@
   line-height: 23.4px;
   text-align: left;
   align-self: center;
-  width: 48%;
-  margin-bottom: 2%;
-  margin-right: 2%;
+  width: 50%;
   justify-self: end;
+  margin: 0;
 }
 
 .decorated-zone-rec {
@@ -98,8 +98,6 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  margin-top: 1.8%;
-  max-height: 26px;
 }
 
 .header__theme-menu-list {
@@ -148,9 +146,8 @@
   display: grid;
   grid-template-columns: 315px 1fr;
   gap: 20px;
-  margin-block-end: 61px;
-  margin-inline-start: 2%;
-  margin-inline-end: 2%;
+  margin-block-end: 80px;
+  padding: 0 20px 0 20px;
 }
 
 .main_title {
@@ -174,9 +171,8 @@
 }
 
 .content__section_what {
-  margin-block-end: 72px;
-  margin-inline-start: 2%;
-  margin-inline-end: 2%;
+  margin-block-end: 80px;
+  padding: 0 20px 0 20px;
 }
 
 .block_what {
@@ -203,9 +199,8 @@
   "tape books ice-cream"
   "tape street street";
   max-height: 1103px;
-  margin-inline-start: 2%;
-  margin-inline-end: 2%;
-  margin-block-end: 45px;
+  padding: 0 20px 0 20px;
+  margin-block-end: 60px;
 }
 
 .sunset {
@@ -246,7 +241,6 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  max-height: 768px;
 }
 
 .footer__title {
@@ -277,26 +271,19 @@
 @media (width < 1023px) {
   .header {
     margin-block-end: 60px;
-    max-height: 1024px;
   }
 
   .header__subtitle {
-    margin-right: 2.5%;
-    margin-top: 0%;
     width: 47.5%;
   }
 
   .header__title {
     line-height: 99px;
-    margin-top: 0%;
   }
   
   .header__theme-menu {
     justify-content: end;
     align-items: center;
-    padding-right: 3%;
-    max-height: none;
-    margin-top: 2%;
   }
   
   .header__theme-menu-list {
@@ -365,20 +352,13 @@
   :root {
     --logo-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
-  
-  .page {
-    margin-right: 2.5%;
-    margin-left: 2.5%;
-  }
 
   .header {
     margin-block-end: 19px;
-    max-height: 668px;
+    margin: 10px;
   }
 
   .header__subtitle {
-    margin-right: 2%;
-    margin-bottom: 3%;
     width: 99%;
   }
 
@@ -389,8 +369,6 @@
   .header__theme-menu {
     justify-content: end;
     align-items: center;
-    padding-right: 2.5%;
-    margin-top: 2%;
   }
   
   .header__theme-menu-list {

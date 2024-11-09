@@ -124,6 +124,7 @@
 .header__theme-menu-button_active {
   border: 1px solid currentColor;
   pointer-events: none;
+  padding: 0 13px 0;
 }
 
 .title_decor {
@@ -172,13 +173,13 @@
   margin-bottom: 3%;
 }
 
-.content__section_row {
+.content__section_what {
   margin-block-end: 72px;
   margin-inline-start: 2%;
   margin-inline-end: 2%;
 }
 
-.block_1 {
+.block_what {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
@@ -295,13 +296,19 @@
     align-items: center;
     padding-right: 3%;
     max-height: none;
-    margin-top: 0%;
+    margin-top: 2%;
   }
   
   .header__theme-menu-list {
     flex-direction: column;
     gap: 10px;
+    align-items: center;
   }
+
+  .header__theme-menu-button_active {
+    padding: 0 13px 0 13px;
+  }
+  
 
   .main_title {
     margin-bottom: 2.5%;
@@ -324,13 +331,13 @@
     margin-left: 2.5%;
   }
 
-  .content__section_row {
+  .content__section_what {
     margin-bottom: 83px;
     margin-right: 2.5%;
     margin-left: 2.5%;
   }
 
-  .block_1 {
+  .block_what {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: none;
@@ -352,25 +359,11 @@
   .footer {
     max-height: 1024px;
   }
-
-  .footer__decorated-zone::before {
-    top: 132px;
-    right: 10px;
-  }
-  
-  .footer__decorated-zone::after {
-    bottom: 132px;
-    left: 10px;
-  }
 }
 
 @media (width <= 767px) {
   :root {
     --logo-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  }
-
-  .theme_light .decorated-zone-rec {
-    display: none;
   }
   
   .page {
@@ -384,7 +377,7 @@
   }
 
   .header__subtitle {
-    margin-left: 0%;
+    margin-right: 2%;
     margin-bottom: 3%;
     width: 99%;
   }
@@ -438,17 +431,14 @@
     margin-bottom: 40px;
   }
 
-  .content__section_row {
+  .content__section_what {
     margin-right: 1%;
     margin-bottom: 28px;
     margin-left: 0%;
     margin-top: 9px;
   }
 
-  .block_1 {
-    display: grid;
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-columns: none;
+  .block_what {
     max-height: 1052px;
   }
 

@@ -190,7 +190,7 @@
 
 .gallery {
   display: grid;
-  gap: 20px;
+  gap: 19px;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, 1fr);
   grid-template-areas: 
@@ -270,7 +270,7 @@
 
 @media (width < 1023px) {
   .header {
-    margin-block-end: 60px;
+    margin-block-end: 40px;
   }
 
   .header__subtitle {
@@ -292,11 +292,6 @@
     align-items: center;
   }
 
-  .header__theme-menu-button_active {
-    padding: 0 13px 0 13px;
-  }
-  
-
   .main_title {
     margin-bottom: 2.5%;
     width: 236px;
@@ -313,15 +308,6 @@
 
   .content__section {
     grid-template-columns: 236px 1fr;
-    margin-block-end: 60px;
-    margin-right: 2.5%;
-    margin-left: 2.5%;
-  }
-
-  .content__section_what {
-    margin-bottom: 83px;
-    margin-right: 2.5%;
-    margin-left: 2.5%;
   }
 
   .block_what {
@@ -338,13 +324,6 @@
 
   .gallery {
     max-height: 823px;
-    margin-right: 2.5%;
-    margin-left: 2.5%;
-    margin-bottom: 8.3%;
-  }
-
-  .footer {
-    max-height: 1024px;
   }
 }
 
@@ -354,16 +333,17 @@
   }
 
   .header {
-    margin-block-end: 19px;
-    margin: 10px;
+    margin-block-end: 30px;
+    padding: 10px;
   }
 
   .header__subtitle {
-    width: 99%;
+    width: 100%;
   }
 
   .header__title {
     line-height: 95.7px;
+    margin-left: -10px;
   }
   
   .header__theme-menu {
@@ -378,12 +358,12 @@
   
   .decorated-zone::before {
     top: 10px;
-    right: 5px;
+    right: 10px;
   }
   
   .decorated-zone::after {
     bottom: 10px;
-    left: 0px;
+    left: 10px;
   }
 
   .main_title {
@@ -405,15 +385,14 @@
   }
 
   .content__section {
-    display: inline;
-    margin-bottom: 40px;
+    display: block;
+    margin-block-end: 50px;
+    padding: 0 10px 0px 10px;
   }
 
   .content__section_what {
-    margin-right: 1%;
-    margin-bottom: 28px;
-    margin-left: 0%;
-    margin-top: 9px;
+    padding: 0 10px 0px 10px;
+    margin-block-end: 50px;
   }
 
   .block_what {
@@ -424,16 +403,12 @@
     margin-block-start: 26px;
     margin-right: 1%;
   }
-  
-  .description_title:first-child {
-    margin-block-start: 0px;
-  }
 
   .gallery {
-    display: inline;
+    display: block;
     max-height: 1400px;
-    margin-right: 0%;
-    margin-left: 0%;
+    padding: 0 10px 0px 10px;
+    margin-block-end: 40px;
   }
 
   .footer {
@@ -442,7 +417,6 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    margin-top: 45px;
   }
 }
 

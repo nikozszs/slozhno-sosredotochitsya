@@ -146,7 +146,7 @@
   display: grid;
   grid-template-columns: 315px 1fr;
   gap: 20px;
-  margin-block-end: 80px;
+  margin-block-end: 60px;
   padding: 0 20px 0 20px;
 }
 
@@ -155,23 +155,22 @@
   font-family: inherit;
   font-weight: 700;
   font-size: 18px;
-  line-height: 23px;
+  line-height: 23.4px;
   width: 315px;
-  margin-bottom: 2%;
+  justify-self: start;
 }
 
 .main_text {
-  font-family: var(--main-font);
+  font-family: inherit;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 23.4px;
-  margin-top: 1.8%;
-  margin-bottom: 3%;
+  padding: 10px 0 20px 0;
 }
 
 .content__section_what {
-  margin-block-end: 80px;
+  margin-block-end: 60px;
   padding: 0 20px 0 20px;
 }
 
@@ -179,13 +178,17 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+  margin-top: 20px;
 }
 
 .description_title {
   background-color: var(--secondary-color);
   color: var(--color-text);
-  margin-block-start: 3.2%;
   font-weight: 400;
+}
+
+.description_title:first-last {
+  margin-top: 20px;
 }
 
 .gallery {
@@ -247,7 +250,7 @@
   font-family: inherit;
   font-weight: 700;
   font-size: var(--logo-size);
-  line-height: 82.5%;
+  line-height: 129.53px;
   color: var(--accent-color);
   text-shadow: 2px 4px 0 var(--secondary-color);
 }

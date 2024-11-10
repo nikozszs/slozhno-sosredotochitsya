@@ -390,9 +390,6 @@ h4:nth-child(2n) {
     margin: 0;
   }
 
-  .description_title {
-  }
-
   .gallery {
     display: block;
     max-height: 1400px;

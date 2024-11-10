@@ -275,7 +275,7 @@ h4:nth-child(2n) {
 
 @media (width < 1023px) {
   .header {
-    margin-block-end: 45px;
+    margin-block-end: 55px;
   }
 
   .header__subtitle {
@@ -332,7 +332,7 @@ h4:nth-child(2n) {
   }
 
   .header {
-    margin-block-end: 30px;
+    margin-block-end: 40px;
     padding: 10px;
   }
 
@@ -342,7 +342,7 @@ h4:nth-child(2n) {
 
   .header__title {
     line-height: 95.7px;
-    margin-left: -10px;
+    margin-left: 0px;
   }
   
   .header__theme-menu {
@@ -366,19 +366,17 @@ h4:nth-child(2n) {
   }
 
   .main_title {
-    padding-bottom: 3.5%;
+    padding-bottom: 20px;
     width: 355px;
   }
 
-  .main_text {
-  }
-
-  .title_decor {
+  h2:nth-last-child(6) {
+    margin-bottom: 10px;
   }
 
   .content__section {
     display: block;
-    margin-block-end: 50px;
+    margin-block-end: 30px;
     padding: 0 10px 0px 10px;
   }
 
@@ -389,6 +387,7 @@ h4:nth-child(2n) {
 
   .block_what {
     max-height: 1052px;
+    margin: 0;
   }
 
   .description_title {

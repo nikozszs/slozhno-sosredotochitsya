@@ -169,14 +169,6 @@
   padding: 10px 0 20px 0;
 }
 
-p:first-child {
-  margin-top: 20px;
-}
-
-h4:first-child {
-  margin-top: 20px;
-}
-
 .content__section_what {
   margin-block-end: 60px;
   padding: 0 20px 0 20px;
@@ -195,6 +187,10 @@ h4:first-child {
   font-weight: 400;
   font-size: 18px;
   line-height: 23.4px
+}
+
+h4:nth-child(2n) {
+  margin-top: 20px;
 }
 
 .gallery {

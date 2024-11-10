@@ -275,11 +275,11 @@ h4:nth-child(2n) {
 
 @media (width < 1023px) {
   .header {
-    margin-block-end: 40px;
+    margin-block-end: 50px;
   }
 
   .header__subtitle {
-    width: 47.5%;
+    width: 50%;
   }
 
   .header__title {
@@ -302,6 +302,7 @@ h4:nth-child(2n) {
   }
 
   .main_text {
+    padding: 10px 0 20px 0;
   }
 
   .title_decor {
@@ -311,15 +312,19 @@ h4:nth-child(2n) {
     grid-template-columns: 236px 1fr;
   }
 
+  .content__section_what {
+    margin-block-end: 65px;
+  }
+
   .block_what {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: none;
     gap: 0px;
+    max-height: 600px;
   }
 
   .description_title {
-    margin-block-start: 4.5%;
   }
 
   .gallery {

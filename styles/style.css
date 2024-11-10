@@ -275,7 +275,7 @@ h4:nth-child(2n) {
 
 @media (width < 1023px) {
   .header {
-    margin-block-end: 50px;
+    margin-block-end: 45px;
   }
 
   .header__subtitle {
@@ -305,9 +305,6 @@ h4:nth-child(2n) {
     padding: 10px 0 20px 0;
   }
 
-  .title_decor {
-  }
-
   .content__section {
     grid-template-columns: 236px 1fr;
   }
@@ -322,9 +319,6 @@ h4:nth-child(2n) {
     grid-template-columns: none;
     gap: 0px;
     max-height: 600px;
-  }
-
-  .description_title {
   }
 
   .gallery {

@@ -19,6 +19,7 @@
   position: relative;
   margin-block-end: 60px;
   height: 100vh;
+  min-height: 668px;
   padding: 20px;
 }
 
@@ -51,7 +52,6 @@
 .decorated-zone-rec {
   position: absolute;
   width: 33px;
-  height: 26px;
   text-transform: uppercase;
   color: #FF0070;
   top: 20px;
@@ -243,6 +243,7 @@ h4:nth-child(2n) {
 .footer {
   display: flex;
   height: 100vh;
+  min-height: 668px;
   justify-content: center;
   align-items: center;
   position: relative;
@@ -278,10 +279,6 @@ h4:nth-child(2n) {
     margin-block-end: 55px;
   }
 
-  .header__subtitle {
-    width: 50%;
-  }
-
   .header__title {
     line-height: 99px;
   }
@@ -299,10 +296,6 @@ h4:nth-child(2n) {
 
   .main_title {
     width: 236px;
-  }
-
-  .main_text {
-    padding: 10px 0 20px 0;
   }
 
   .content__section {
@@ -395,14 +388,6 @@ h4:nth-child(2n) {
     max-height: 1400px;
     padding: 0 10px 0px 10px;
     margin-block-end: 40px;
-  }
-
-  .footer {
-    display: flex;
-    block-size: 100vh;
-    justify-content: center;
-    align-items: center;
-    position: relative;
   }
 }
 

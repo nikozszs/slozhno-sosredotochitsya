@@ -3,7 +3,7 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-:root.theme_light {
+:root .theme_light {
   --bg-color: #fff1f7;
   --accent-color: #FFC2E6;
   --button: #353430;

@@ -1,9 +1,4 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-:root .theme_light {
+.page.theme_light {
   --bg-color: #fff1f7;
   --accent-color: #FFC2E6;
   --button: #353430;
@@ -18,7 +13,7 @@
 }
 
 @media (prefers-color-scheme: light) {
-  :root .theme_light {
+  :root {
     --bg-color: #fff1f7;
     --accent-color: #FFC2E6;
     --button: #353430;
@@ -45,12 +40,12 @@
       --secondary-color: #FF8DCB;
       --color-text: #353430;
       }
+  
+  .theme_auto .decorated-zone-rec {
+      display: none;
+    }
   }
 
     .theme_light .decorated-zone-rec {
-      display: none;
-    }
-
-    .theme_auto .decorated-zone-rec {
       display: none;
     }

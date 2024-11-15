@@ -271,7 +271,8 @@ h4:nth-child(2n) {
 }
 
 .header__theme-menu-button:focus-visible {
-  outline: 1px solid var(--button);
+  outline: none;
+  border-bottom: 1px solid var(--button);
 }
 
 @media (width < 1023px) {

@@ -26,20 +26,20 @@
     --secondary-color: #FF8DCB;
     --color-text: #353430;
     }
-
-  :root .theme_auto {
-      --bg-color: #fff1f7;
-      --accent-color: #FFC2E6;
-      --button: #353430;
-      --title-shadow-color: #FF0070;
-      --text-link-color: #353430;
-      --text-link-shadow-color: #ff8dcd;
-      --button-hover-color: rgba(50, 49, 45, 0.4);
-      --color: #353430;
-      --bg-image: url(../images/cover-image-light.png);
-      --secondary-color: #FF8DCB;
-      --color-text: #353430;
-      }
+    
+  .theme_auto {
+    --bg-color: #fff1f7;
+    --accent-color: #FFC2E6;
+    --button: #353430;
+    --title-shadow-color: #FF0070;
+    --text-link-color: #353430;
+    --text-link-shadow-color: #ff8dcd;
+    --button-hover-color: rgba(50, 49, 45, 0.4);
+    --color: #353430;
+    --bg-image: url(../images/cover-image-light.png);
+    --secondary-color: #FF8DCB;
+    --color-text: #353430;
+  }
   
   .theme_auto .decorated-zone-rec {
       display: none;

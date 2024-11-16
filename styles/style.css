@@ -316,7 +316,7 @@ h4:nth-child(2n) {
   }
 
   .gallery {
-    max-height: 823px;
+    max-height: 824px;
   }
 }
 
@@ -365,7 +365,7 @@ h4:nth-child(2n) {
   }
 
   h2:nth-last-child(6) {
-    margin-bottom: 10px;
+    width: 355px;
   }
 
   .content__section {
@@ -385,10 +385,12 @@ h4:nth-child(2n) {
   }
 
   .gallery {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
     max-height: 1400px;
     padding: 0 10px 0px 10px;
     margin-block-end: 40px;
+    gap: 10px;
   }
 }
 

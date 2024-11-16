@@ -26,7 +26,7 @@
     --secondary-color: #FF8DCB;
     --color-text: #353430;
     }
-    
+
   .theme_auto {
     --bg-color: #fff1f7;
     --accent-color: #FFC2E6;
@@ -45,7 +45,7 @@
       display: none;
     }
   }
-
-    .theme_light .decorated-zone-rec {
+  
+  .theme_light .decorated-zone-rec {
       display: none;
     }

@@ -26,7 +26,7 @@
 .header__title {
   font-family: inherit;
   font-weight: 700;
-  font-size: var(--logo-size);
+  font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   line-height: 129.53px;
   color: var(--accent-color);
   text-shadow: 4px 4px 0 var(--secondary-color);
@@ -203,7 +203,7 @@ h4:nth-child(2n) {
   "sunset sunset ice-cream"
   "tape books ice-cream"
   "tape street street";
-  max-height: 1103px;
+  max-height: 1093px;
   padding: 0 20px 0 20px;
   margin-block-end: 60px;
 }
@@ -231,11 +231,12 @@ h4:nth-child(2n) {
 .street {
   grid-area: street;
   width: 100%;
+  height: 99%;
 }
 
 .picture {
   inline-size: 100%;
-  block-size: 100%;
+  block-size: 98.5%;
   object-fit: cover;
   object-position: center;
 }
@@ -252,7 +253,7 @@ h4:nth-child(2n) {
 .footer__title {
   font-family: inherit;
   font-weight: 700;
-  font-size: var(--logo-size);
+  font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   line-height: 129.53px;
   color: var(--accent-color);
   text-shadow: 2px 4px 0 var(--secondary-color);
@@ -317,14 +318,11 @@ h4:nth-child(2n) {
 
   .gallery {
     max-height: 824px;
+    margin-block-end: 60px;
   }
 }
 
 @media (width <= 767px) {
-  :root {
-    --logo-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  }
-
   .header {
     margin-block-end: 40px;
     padding: 10px;
@@ -337,6 +335,7 @@ h4:nth-child(2n) {
   .header__title {
     line-height: 95.7px;
     margin-left: 0px;
+    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
   
   .header__theme-menu {
@@ -387,10 +386,14 @@ h4:nth-child(2n) {
   .gallery {
     display: flex;
     flex-wrap: wrap;
-    max-height: 1400px;
+    max-height: 1398px;
     padding: 0 10px 0px 10px;
     margin-block-end: 40px;
     gap: 10px;
+  }
+
+  .footer__title {
+    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
 }
 

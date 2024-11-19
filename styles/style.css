@@ -279,7 +279,7 @@ h4:nth-child(2n) {
 
 @media (width < 1023px) {
   .header {
-    margin-block-end: 55px;
+    margin-block-end: 60px;
   }
 
   .header__title {
@@ -288,7 +288,7 @@ h4:nth-child(2n) {
   
   .header__theme-menu {
     justify-content: end;
-    align-items: end;
+    align-items: center;
   }
   
   .header__theme-menu-list {

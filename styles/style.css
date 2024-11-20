@@ -359,6 +359,17 @@ h4:nth-child(2n) {
     left: 10px;
   }
 
+  .decorated-zone-rec {
+    position: absolute;
+    width: 33px;
+    text-transform: uppercase;
+    color: #FF0070;
+    top: 10px;
+    right: 38px;
+    line-height: 25px;
+    font-size: 18px;
+  }
+
   .main_title {
     padding-bottom: 20px;
     width: 355px;

@@ -411,6 +411,7 @@ h4:nth-child(2n) {
     margin-block-end: 50px;
     grid-template-columns: 1fr;
     min-height: max-content;
+    height: 100%;
   }
 
   .block_what {

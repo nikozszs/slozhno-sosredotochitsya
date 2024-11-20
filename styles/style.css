@@ -408,12 +408,12 @@ h4:nth-child(2n) {
 
   .content__section_what {
     padding: 0 10px 0px 10px;
-    margin-block-end: 495px;
+    margin-block-end: 50px;
     grid-template-columns: 1fr;
+    min-height: max-content;
   }
 
   .block_what {
-    max-height: 1119px;
     margin: 0;
     gap: 20px;
   }

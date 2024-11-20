@@ -410,8 +410,8 @@ h4:nth-child(2n) {
     padding: 0 10px 0px 10px;
     margin-block-end: 50px;
     grid-template-columns: 1fr;
-    min-height: max-content;
-    height: 100%;
+ 
+    max-height: 1119px;
   }
 
   .block_what {
